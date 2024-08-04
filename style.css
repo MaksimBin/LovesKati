@@ -1,0 +1,184 @@
+.newStart{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: deeppink;
+  z-index: 3;
+}
+
+
+.marii{
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  z-index: 2;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: midnightblue;
+  background-image: url("/1656602116_45-furman-top-p-tekstura-serdtsa-krasivo-48.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.btn{
+  border-style: none;
+  opacity: 9;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  background-color: deeppink;
+  box-shadow: 0 0 15px 0 white;
+  border-radius: 8px;
+  font-family: bold;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.btn:hover{
+  box-shadow: none;
+  opacity: 0;
+  color: midnightblue;
+  transition-duration: 4s;
+  background-color: midnightblue;
+}
+
+.buttonStart{
+    border-style: none;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  background-color: deeppink;
+  box-shadow: 0 0 15px 0 white;
+  border-radius: 8px;
+  font-family: bold;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.buttonStart:hover {
+  box-shadow: none;
+  transition-duration: 4s;
+  box-shadow: 0 0 15px 0 deeppink;
+  width: 300px;
+  height: 300px;
+  background-image: url("/IMG_20240611_135231.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+  box-shadow: 0 0 20px 0 white;
+}
+
+.foto1{
+  width: 140px;
+  height: 140px;
+border-radius: 50%;
+  background-image: url("/IMG_20240611_160244.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.foto2 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url("/IMG_20240613_005718.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.foto3 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url("/IMG_20240613_032159.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.foto4 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url("/IMG_20240615_214018.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.vmeste{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+  z-index: 3;
+}
+
+.vmesteMi{
+  width: 300px;
+  height: 500px;
+  background-image: url("/IMG_20240625_214534.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.arrText{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-color: orangered;
+  background-image: url("/httpgrtportal4.web11.indzine.netwowmur056-3dhearts-ae1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  font-size: 2rem;
+  color: darkred;
+  z-index: 4;
+}
+
+.text1{
+  margin-right: 150px;
+  color: white;
+  font-size: 2rem;
+}
+
+.text2 {
+  margin-right: 150px;
+  color: white;
+  font-size: 2rem;
+}
