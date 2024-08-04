@@ -281,7 +281,7 @@ const startText = () => {
   }, 20000)
 }
 
-let audio = new Audio("/Lesley Gore - — It's My Party(1963) ost _трудный ребенок_ (www.lightaudio.ru).mp3")
+let audio = new Audio("Lesley Gore - — It's My Party(1963) ost _трудный ребенок_ (www.lightaudio.ru).mp3")
 
 const startNew = () => {
   
